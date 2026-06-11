@@ -9,7 +9,7 @@ import MenuIcon from './Pages/MenuIcon'
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 import Footer from './component/Footer'
-import SingleProductPage from './Pages/singleProductPage'
+import SingleProductPage from './Pages/SingleProductPage'
 
 
 function App() {
