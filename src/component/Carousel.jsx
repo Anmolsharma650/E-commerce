@@ -69,7 +69,7 @@ function Carousel() {
               <img
                 src={item.thumbnail}
                 alt={item.title}
-                className="rounded-full w-[220px] sm:w-[260px] md:w-[300px] 
+                className=" bg-white rounded-full w-[220px] sm:w-[260px] md:w-[300px] 
                            hover:scale-105 transition-all duration-300 
                            shadow-2xl shadow-red-400"
               />
