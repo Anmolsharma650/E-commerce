@@ -42,7 +42,7 @@ function Header({ location, getLocation, openDropDown, setOpenDropDown }) {
         <div className='flex text-[20px]  items-center gap-7'>
           <ul className='   hidden  md:flex justify-center gap-7 font-semibold '>
             <NavLink to={'/'} className={({ isActive }) => `${isActive ? "border-b-2 translate-all border-red-500 " : 'text-black '} cursor-pointer`} ><li>Home</li></NavLink>
-            <NavLink to={'/products'} className={({ isActive }) => `${isActive ? "border-b-2 translate-all border-red-500 " : 'text-black '} cursor-pointer`} ><li>Produts</li></NavLink>
+            <NavLink to={'/products'} className={({ isActive }) => `${isActive ? "border-b-2 translate-all border-red-500 " : 'text-black '} cursor-pointer`} ><li>Products</li></NavLink>
             <NavLink to={'/about'} className={({ isActive }) => `${isActive ? "border-b-2 translate-all border-red-500 " : 'text-black '} cursor-pointer`} ><li>About</li></NavLink>
             <NavLink to={'/contact'} className={({ isActive }) => `${isActive ? "border-b-2 translate-all border-red-500 " : 'text-black '} cursor-pointer`} ><li>Contact</li></NavLink>
           </ul>
